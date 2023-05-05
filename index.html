@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login page in HTML</title>
+</head>
+<body>
+    <h1>Book Movie Tickets</h1>
+    <div class="formaud">
+    <form action="">
+    <div class="headingsContainer">
+    <h3>Sign in</h3>
+        <p>Sign in with your username and password</p>
+    </div>
+    <br>
+    <div class="maincontainer">
+    <label for="username">Username</label>
+    <input type="username">
+    <br><br>
+    <label for="password">Password</label>
+    <input type="password">
+    </div>
+    <div class="subcontainer">
+        <p class="forgotpsd"><a href="forgotpsd" style="color: coral;">Forgot Password?</a>
+    </div>
+    <center><button>Login</button></center> 
+    <div class="signup">
+    <center><p>Not a memeber?<a href="Reg" style="color: coral;">Sign Up</a></p></center>
+    </div>
+    </form>
+    </div>
+    <div class="audio">
+      <strong>Hear the below audio before booking tickets.</strong>
+      <br><br>
+    <center><audio controls><source src="Audio.wav" type="audio/wav"></center>
+      </audio>
+    <br><br>
+      <div class="trailer">
+        <strong><u>Movie Trailer</u></strong>
+    </div>
+      <center><video width="320" height="240" controls>
+        <source src="Movie Trailer.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+    </center>   
+    </div>
+    <br><br>
+    <table border="2.5", style="width: 25%;">
+        <tr>
+          <th>Seating Area</th>
+          <th>Rate</th>
+        </tr>
+        <tr>
+          <td>Platinum Circle</td>
+          <td>₹250</td>
+        </tr>
+        <tr>
+          <td>Golden Circle</td>
+          <td>₹180</td>
+        </tr>
+        <tr>
+            <td>Silver Circle</td>
+            <td>₹120</td>
+          </tr>
+      </table>
+      <br><br><br>
+<style>
+  body {  
+    font-family: Calibri, Helvetica, sans-serif;  
+    background-image:url(https://img.freepik.com/free-vector/open-clapper-board-with-film-strip-background-design_1017-26102.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+form {   
+    border: 3px solid #f1f1f1;
+    width:20rem;
+    margin-left: 40%;
+    color:whitesmoke;
+    -webkit-backdrop-filter: blur(500px) saturate(180%);
+    background-color: rgba(10, 45, 68, 0.76);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.267);   
+    } 
+input[type=username], input[type=password] {   
+        width: 90%; 
+        margin: 5px 0;  
+        padding: 7px 15px;   
+        display: inline-block;     
+        box-sizing:border-box;   
+    }  
+button:hover {   
+        opacity: 0.7;
+        cursor: pointer;   
+    }  
+h1{
+    text-align: center;
+    font-size: 250%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(160, 207, 207);
+} 
+h3{
+    font-size: 165%;
+}
+
+.headingsContainer{
+    text-align: center;
+}
+.maincontainer{ 
+        padding-left: 25px;
+}
+.subcontainer{
+    padding-left: 25px;
+}
+table{
+margin: auto;
+border-radius: 0;
+-webkit-backdrop-filter: blur(500px) saturate(180%);
+background-color: rgba(21, 39, 54, 0.582);
+text-align: center;
+color: wheat;
+border-color: whitesmoke;
+}
+th{
+    color: goldenrod;
+    font-size: larger;
+}
+video{
+    margin: auto;
+}
+.audio{
+    text-align: center;
+    margin-left: 600px;
+    font-size: 125%;
+    color: rgb(177, 236, 236);
+}
+.trailer{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(192, 114, 19);
+    font-size: 100%;
+}
+.formaud{
+    margin-top: 20px;
+    width: 400px;
+    height: 0px;
+}
+</style>
+</body> 
+</html>
